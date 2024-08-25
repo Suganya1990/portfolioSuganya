@@ -10,7 +10,7 @@ export const DATA = {
   description:
     " Solving human problems thorough technology.",
   summary:
-    "Junior Web Developer having 2 years of experience in developing user Interface application and professional web applications using HTML5, CSS, CSS3, JavaScript(Es5 and ES6), jQuery, and Bootstrap Designed and maintained websites using HTML5, CSS3, jQuery, Bootstrap, and JavaScript Identified and corrected problems uncovered during testing or customer feedback under guidance of senior developer.",
+  "I am a front-end web developer based out of the Greater Toronto Area with a background in finance and experience with working at a startup company.  I have always been fascinated with emerging technologies, expanding my skill set, and challenging myself. Web development allows me to marry my passions and experiences together in order to create an intuitive, user-friendly environment. My hope is that my contributions lead to a better and more accessible future for all. When I'm not coding, you can find me getting ragdolled in the dojo, playing boardgames, or on a run.",
   avatarUrl: "/me.png",
   skills: [
     "HTML",
@@ -22,6 +22,9 @@ export const DATA = {
     "C++",
     "DAX",
     "SQL",
+    "Microsoft Office",
+    "Jira",
+    "CompTIA A+",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -38,13 +41,13 @@ export const DATA = {
 
         navbar: true,
       },
-      LinkedIn: {
-        name: "LinkedIn",
-        url: "",
-        icon: Icons.linkedin,
+      // LinkedIn: {
+      //   name: "LinkedIn",
+      //   url: "",
+      //   icon: Icons.linkedin,
 
-        navbar: true,
-      },
+      //   navbar: true,
+      // },
       X: {
         name: "X",
         url: "https://x.com/Suganyaa__",
@@ -102,7 +105,7 @@ export const DATA = {
       href: "https://www.nursenextdoor.com/",
       badges: [],
       location: "Toronto, CA",
-      title: "Software Engineer",
+      title: "Nurse Scheduler",
       logoUrl: "/NurseNextDoorLogo",
       start: "2015",
       end: "2016",
@@ -131,97 +134,35 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Weather App ",
+      href: "https://react-weather-app-suganya1990.vercel.app/",
+      dates: "January 2021 - Febuary 2021",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Developed a responsive single page weather App that informs users of the weather condition including temperature, rain, snow, and wind.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "React",
+        "REST API",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Responsive Mobile First Design",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://react-weather-app-suganya1990.vercel.app/",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Suganya1990/ReactWeatherApp",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
-    {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
-      active: true,
-      description:
-        "Designed, developed and sold animated UI components for developers.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
-    },
-    {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+        "/WeatherAppDemoView.mp4",
     },
     {
       title: "Automatic Chat",
@@ -238,8 +179,6 @@ export const DATA = {
         "TailwindCSS",
         "Shadcn UI",
         "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
       ],
       links: [
         {
@@ -250,7 +189,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "\WeatherAppDemoView - Made with Clipchamp.mp4",
     },
   ],
   hackathons: [   {
