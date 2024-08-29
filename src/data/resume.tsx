@@ -165,31 +165,28 @@ export const DATA = {
         "/WeatherAppDemoView.mp4",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "Grocery Bud",
+      href: "https://grocery-shopping-list-kohl.vercel.app/",
+      dates: "April 2020 - March 2020",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Developed a simple app to help you during the trip to the grocery store.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React",
       ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://grocery-shopping-list-kohl.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
       video:
-        "\WeatherAppDemoView - Made with Clipchamp.mp4",
+        "",
     },
   ],
   hackathons: [   {
