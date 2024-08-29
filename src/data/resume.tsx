@@ -164,30 +164,30 @@ export const DATA = {
       video:
         "/WeatherAppDemoView.mp4",
     },
-    {
-      title: "Grocery Bud",
-      href: "https://grocery-shopping-list-kohl.vercel.app/",
-      dates: "April 2020 - March 2020",
-      active: true,
-      description:
-        "Developed a simple app to help you during the trip to the grocery store.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "React",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://grocery-shopping-list-kohl.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "",
-    },
+    // {
+    //   title: "Grocery Bud",
+    //   href: "https://grocery-shopping-list-kohl.vercel.app/",
+    //   dates: "April 2020 - March 2020",
+    //   active: true,
+    //   description:
+    //     "Developed a simple app to help you during the trip to the grocery store.",
+    //   technologies: [
+    //     "HTML",
+    //     "CSS",
+    //     "Javascript",
+    //     "React",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://grocery-shopping-list-kohl.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video:
+    //     "",
+    // },
   ],
   hackathons: [   {
     title: "Portal Hackathon",
