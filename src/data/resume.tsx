@@ -57,7 +57,7 @@ export const DATA = {
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "",
         icon: Icons.youtube,
         navbar: false,
       }
@@ -83,8 +83,8 @@ export const DATA = {
       location: "Toronto, ON",
       title: "Dispatcher/Adminstrator",
       logoUrl: "/facedrive.jpg",
-      start: "January 2019",
-      end: "April 2019",
+      start: "March 2019",
+      end: "February 2020",
       description:
        "Dispatched and coordinated the movements of vehicles and personnel to optimize efficiency and response times. Communicated with drivers and customers via radio, phone, or computer to provide information and updates on routes, schedules, or emergencies. Also Focused on attracting and converting new users through driver and customer promotions. Responsible for onboarding new drivers and ensuring all documents are up to date..",
     },
@@ -95,8 +95,8 @@ export const DATA = {
       location: "Toronto, Canada",
       title: "Medical Sales Consultant",
       logoUrl: "/hearcom.svg",
-      start: "March 2016",
-      end: "April 2019",
+      start: "May 2016",
+      end: "September 2017",
       description:
         "Consulted customers via telephone throughout every step of the process (B 2 C process). During the consultation provided individual solutions based on their hearing reuirments. ",
     },
@@ -107,8 +107,8 @@ export const DATA = {
       location: "Toronto, CA",
       title: "Nurse Scheduler",
       logoUrl: "/NurseNextDoorLogo",
-      start: "2015",
-      end: "2016",
+      start: "Sept 2014",
+      end: "May 2016",
       description:
         "Sets up all nursing work schedules and assigned staff to ensure adequate staffing and replacement at all times following the guidelines within the bargaining units contract as well as thec company's administrative policies",
     },
